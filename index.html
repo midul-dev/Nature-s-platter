@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nature's Platter</title>
+    <!-- Tailwind cdn  -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!-- fontawosome cds  -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
-    
+    <header>
+        <nav class=" flex justify-between container mx-auto items-center mt-4">
+            <img src="./assets/nav-logo.png" alt="Nature's Platter Logo" class="h-auto w-27.5">
+            <ul class="flex gap-5 items-center justify-center">
+                <li>Product</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </ul>
+            <div class="flex gap-2 items-center">
+                <span class=" pr-1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <span class="pr-2"><i class="fa-solid fa-cart-plus"></i></span>
+                <button class="border py-0.5 px-4 rounded-sm border-[#179800]">Login</button>
+                <button class=" py-0.5 px-4 rounded-sm bg-[#179800] text-white">Register</button>
+            </div>
+        </nav>
+    </header>
 </body>
 </html>
